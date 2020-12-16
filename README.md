@@ -8,10 +8,11 @@ This weeks assignment is built entirely from scratch. It has a database with thr
 
 ## Installation
 install node.js, run npm init, run npm i.
-
 I use npm install to install the modules inquirer, mysql
 
-<img src="https://github.com/sstephensMCSE/template-engine-employee-summary/blob/main/pics/npm-install.jpg" width="500" title="NPM-Install">
+**Inquirer Main Menu
+
+<img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/mainmenu.jpg" width="500" title="mainmenu">
 
 ## Project Overview
    This is reminiscent of an old school Employee Management System. The challenge was to create an full-stack application from scratch. 
@@ -55,6 +56,21 @@ Use inquirer to interface with the user actions.
 
 ## Demonstration
 
-<img src="https://github.com/sstephensMCSE/template-engine-employee-summary/blob/main/pics/team-app.jpg" width="500" title="team-app">
+**Action GIF
 
-<img src="https://github.com/sstephensMCSE/template-engine-employee-summary/blob/main/pics/output.jpg" width="800" title="output">
+<img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/action.gif" width="500" title="action">
+
+**Add Employee
+
+<img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/add_employee.jpg" width="800" title="addemployee">
+
+**Add Department
+
+<img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/add_department.jpg" width="500" title="adddepartment">
+
+**Add Role
+
+<img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/add_role.jpg" width="800" title="addrole">
+
+
+
