@@ -76,17 +76,18 @@ Use inquirer to interface with the user actions.
 
 <img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/action.gif" width="500" title="action">
 
-**Add Employee
-
-<img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/add_employee.jpg" width="800" title="addemployee">
 
 **Add Department
 
 <img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/add_department.jpg" width="500" title="adddepartment">
+
 
 **Add Role
 
 <img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/add_role.jpg" width="800" title="addrole">
 
 
+**Add Employee
+
+<img src="https://github.com/sstephensMCSE/Employee-Management-System/blob/main/assets/add_employee.jpg" width="800" title="addemployee">
 
