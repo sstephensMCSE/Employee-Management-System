@@ -17,6 +17,22 @@ I use npm install to install the modules inquirer, mysql
 ## Project Overview
    This is reminiscent of an old school Employee Management System. The challenge was to create an full-stack application from scratch. 
    Since the project is not hosted, I will include screenshots, and GIF style images to demonstrate the result.
+   The hardest part was joining all the tables for the Employee View. I used the MySQL Workbench to troubleshoot the query until it was ready for the backend code.
+   
+   This website was very helpful in understanding how to join multiple tables: https://learnsql.com/blog/how-to-join-3-tables-or-more-in-sql/
+   
+   **Final SQL Query for the Employee-Role-Department Join
+   ```
+   USE employee_DB;
+   SELECT employee.first_name, employee.last_name, department.name, role.title, role.salary
+   AS Department
+      FROM employee
+         JOIN role 
+            ON employee.role_id = role.id 
+         JOIN department 
+            ON role.department_id = department.id 
+   ORDER BY employee.id;
+   ```
 
 ## Psuedo Code
 
@@ -43,7 +59,7 @@ I use npm install to install the modules inquirer, mysql
 Build arrays to represent the selection options:
   * Add departments, roles, employees
   * View departments, roles, employees
-  * Update employee roles
+  * Update employee roles - TODO.
 
 
 Use inquirer to interface with the user actions. 
